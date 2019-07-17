@@ -2,7 +2,7 @@
 This node package extracts the main topic/subject or topics given a string or sentence, that simple!
 The program also tries to do simple formatting like capitalization of names (first characters) and places.
 
-This package uses [compromise](https://github.com/spencermountain/compromise)
+This package uses [compromise](https://github.com/spencermountain/compromise) under the hood
 
 
 # Installation
