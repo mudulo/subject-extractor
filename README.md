@@ -12,23 +12,23 @@ This package uses [compromise](https://github.com/spencermountain/compromise) un
 ## extract
 Returns a string, denoting the best topic or subject given a string or sentence
 ```javascript
-var subject = require("subject-extractor")
+var subjects = require("subject-extractor")
 
 //example containing names
-console.log(subject.extract("My name is jose Mourinho"));
+console.log(subjects.extract("My name is jose Mourinho"));
 > "Jose Mourinho"
 
 //exmaple containing places
-console.log(subject.extract("California is better than New York"))
+console.log(subjects.extract("California is better than New York"))
 > "CALIFORNIA"
 ```
 
 ## extractAll
 Returns an array of topics or subjects from a given string or sentence
 ```javascript
-var subject = require("subject-extractor")
+var subjects = require("subject-extractor")
 
 //news article title
-console.log(subject.extractAll("Password sharing could be a good thing for Netflix and Hulu"));
+console.log(subjects.extractAll("Password sharing could be a good thing for Netflix and Hulu"));
 > "[ 'netflix', 'Password Sharing', 'Password' ]"
 ```
