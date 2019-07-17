@@ -1,7 +1,7 @@
 {
   "name": "subject-extractor",
-  "version": "1.0.1",
-  "description": "This package returns the main subject given a sentence or string. The subject of a sentence is the person, place, thing, or idea that is doing or being something.",
+  "version": "1.0.2",
+  "description": "This node package extracts the main topic or subject given a string or sentence, that simple! Also does simple formatting like capitalization of names (first characters) and places.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
