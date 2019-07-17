@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mudulo/subject.git"
+    "url": "git+https://github.com/mudulo/subject-extractor.git"
   },
   "keywords": [
     "subject",
@@ -21,9 +21,9 @@
   "author": "Duncan Mudulo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mudulo/subject/issues"
+    "url": "https://github.com/mudulo/subject-extractor/issues"
   },
-  "homepage": "https://github.com/mudulo/subject#readme",
+  "homepage": "https://github.com/mudulo/subject-extractor#readme",
   "dependencies": {
     "compromise": "^11.13.2"
   }
