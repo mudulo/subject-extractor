@@ -1,7 +1,7 @@
 {
   "name": "subject-extractor",
-  "version": "1.0.3",
-  "description": "his node package extracts the main topic/subject or topics given a string or sentence, that simple! The package also does simple formatting like capitalization of names (first characters) and places.",
+  "version": "1.0.5",
+  "description": "This node package extracts the main topic/subject or topics given a string or sentence, that simple! The program also tries to do simple formatting like capitalization of names (first characters) and places.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

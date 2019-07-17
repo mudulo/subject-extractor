@@ -1,6 +1,6 @@
 # subject-extractor
 This node package extracts the main topic/subject or topics given a string or sentence, that simple!
-The package also does simple formatting like capitalization of names (first characters) and places.
+The program also tries to do simple formatting like capitalization of names (first characters) and places.
 
 # Installation
 ```npm install subject-extractor```
