@@ -12,7 +12,11 @@
   },
   "keywords": [
     "subject",
-    "topic"
+    "topic",
+    "subject extractor",
+    "topic extractor",
+    "Natural Language Processing",
+    "NLP"
   ],
   "author": "Duncan Mudulo",
   "license": "MIT",
