@@ -1,6 +1,6 @@
 {
   "name": "subject-extractor",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This node package extracts the main topic/subject or topics given a string or sentence, that simple! The program also tries to do simple formatting like capitalization of names (first characters) and places.",
   "main": "index.js",
   "scripts": {

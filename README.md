@@ -2,6 +2,9 @@
 This node package extracts the main topic/subject or topics given a string or sentence, that simple!
 The program also tries to do simple formatting like capitalization of names (first characters) and places.
 
+This package uses [compromise](https://github.com/spencermountain/compromise)
+
+
 # Installation
 ```npm install subject-extractor```
 
@@ -11,11 +14,11 @@ Returns a string, denoting the best topic or subject given a string or sentence
 ```javascript
 var subject = require("subject-extractor")
 
-//names
+//example containing names
 console.log(subject.extract("My name is jose Mourinho"));
 > "Jose Mourinho"
 
-//places
+//exmaple containing places
 console.log(subject.extract("California is better than New York"))
 > "CALIFORNIA"
 ```
