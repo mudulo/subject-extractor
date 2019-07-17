@@ -46,6 +46,50 @@ var subject = (function () {
 	}
 
 
+	function extractAll(title){
+	   
+	   var topics = [];
+
+	   if (getPlaces(title).length > 0){
+	   	topic = getPlaces(title)[0];
+	   	topics.push(topic)
+	   } 
+
+	   if (getNames(title).length > 0) {
+	   	topic = getNames(title)[0];
+	   	topics.push(topic)
+	   } 
+
+	   if (getTopics(title).length > 0) {
+	   	topic = getTopics(title)[0];
+	   	topics.push(topic)
+	   } 
+
+
+	   if (getDates(title).length > 0) {
+	   	topic = getDates(title)[0];
+	   	topics.push(topic)
+	   } 
+
+	   if (getNouns(title).length > 0) {
+	   	topic = getNouns(title)[0];
+	   	topics.push(topic)
+	   } 
+
+	   if (getTopicsTheHardWay(title).length > 0) {
+	   	topic = getTopicsTheHardWay(title)[0];
+	   	topics.push(topic)
+	   } 
+
+	   if (getPeople(title).length > 0) {
+	   	topic = getPeople(title)[0];
+	   	topics.push(topic)
+	   }
+
+	   return topics;
+	}
+
+
 	function getPlaces(title){
 
 		var places;
@@ -250,7 +294,8 @@ var subject = (function () {
 	}
 
 return {
-        extract : extract
+        extract : extract,
+        extractAll : extractAll
        };
 })();
 
